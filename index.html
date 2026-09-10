@@ -374,7 +374,7 @@ section{
 }
 /* =========================
    SWIPE MEMORY CARDS
-   15 IMAGES
+   17 IMAGES
 ========================= */
 .memory-section{
   margin-top:80px;
@@ -727,8 +727,8 @@ footer{
       A little world made for two
     </div>
     <h1>
-      ZEKRA<br>
-      
+      Our<br>
+      Story
     </h1>
     <p>
       Some moments deserve more than a photo.
@@ -748,7 +748,7 @@ footer{
 </button>
 <audio id="audio" loop>
   <source
-    src="vidssave.com Khaled Ali - EZAY BA3EESH_ازاي بعيش Prod.Bashmohannad 256KBPS.mp3"
+    src="song.mp3"
     type="audio/mpeg">
 </audio>
 <!-- HERO -->
@@ -758,12 +758,12 @@ footer{
       A story worth remembering
     </div>
     <h1>
-      Atef
+      Omar
       <em>&</em>
-      Zinab
+      Sara
     </h1>
     <div class="hero-date">
-      OUR STORY 
+      OUR STORY · 2026
     </div>
     <div class="scroll">
       SCROLL TO DISCOVER
@@ -781,11 +781,11 @@ footer{
     One beautiful story.
   </h2>
   <p class="lead">
-    
-    
+    من أول لحظة لحد النهارده، كل تفصيلة صغيرة بقت جزء من حكايتنا.
+    الموقع ده مجرد مكان نحفظ فيه أجمل اللحظات.
   </p>
 </section>
-<!-- MEMORY SWIPE -->
+<!-- MEMORY SWIPE - 17 IMAGES -->
 <section class="story">
   <div class="wrap">
     <div class="center reveal">
@@ -801,6 +801,14 @@ footer{
       <div
         class="memory-stack"
         id="memoryStack">
+        <!--
+          أضف أو غيّر صورك هنا.
+          لازم أسماء الصور تكون:
+          memory1.jpg
+          memory2.jpg
+          ...
+          memory17.jpg
+        -->
         <div class="memory-card">
           <img src="memory1.jpg" alt="Our memory">
         </div>
@@ -845,6 +853,12 @@ footer{
         </div>
         <div class="memory-card">
           <img src="memory15.jpg" alt="Our memory">
+        </div>
+        <div class="memory-card">
+          <img src="memory16.jpg" alt="Our memory">
+        </div>
+        <div class="memory-card">
+          <img src="memory17.jpg" alt="Our memory">
         </div>
       </div>
       <div class="memory-hint">
@@ -966,7 +980,7 @@ footer{
         playsinline
         poster="video-cover.jpg">
         <source
-          src="VID-20260906-WA0022.mp4"
+          src="our-video.mp4"
           type="video/mp4">
         Your browser does not support video.
       </video>
@@ -985,7 +999,7 @@ footer{
         it would be the moments I spent with you.”
       </div>
       <div class="signature">
-        With all my heart · Atef
+        With all my heart · Omar
       </div>
     </div>
   </div>
@@ -997,8 +1011,8 @@ footer{
       And now...
     </div>
     <h2>
-      ZEKRA<br>
-      <span></span>
+      Our<br>
+      <span>story.</span>
     </h2>
     <p>
       One journey · countless memories · still us
@@ -1007,14 +1021,14 @@ footer{
 </section>
 <!-- FOOTER -->
 <footer>
-  MADE WITH LOVE · Atef & Zinab
+  MADE WITH LOVE · OMAR & SARA · 2026
 </footer>
 <script>
 /* =========================
    PASSWORD
 ========================= */
 /* غير الباسورد من هنا فقط */
-const correctPassword = "18226";
+const correctPassword = "1234";
 const passwordScreen =
   document.getElementById('passwordScreen');
 const passwordForm =
@@ -1100,6 +1114,7 @@ document
   .forEach(el => observer.observe(el));
 /* =========================
    MEMORY SWIPE
+   17 MEMORY CARDS
 ========================= */
 const stack =
   document.getElementById('memoryStack');
@@ -1255,7 +1270,7 @@ updateCards();
    COUNTER
 ========================= */
 const startDate =
-  new Date("2026-02-18T00:00:00");
+  new Date("2024-02-14T00:00:00");
 function countUp(){
   const diff =
     Math.max(
